@@ -1,0 +1,5 @@
+{
+  "mongodb": {
+    "uri": "mongodb+srv://JamesDevine:admin@cluster0.962j8vl.mongodb.net/shop-lab?retryWrites=true&w=majority"
+  }
+}
