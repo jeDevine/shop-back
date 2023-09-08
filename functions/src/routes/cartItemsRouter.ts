@@ -10,7 +10,6 @@ const errorResponse = (error: any, res: any) => {
   console.error("FAIL", error);
   res.status(500).json({ message: "Internal Server Error" });
 };
-// 1
 
 cartItemsRouter.get("/users/:userId/cart", async (req, res) => {
   try {
