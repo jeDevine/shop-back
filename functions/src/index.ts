@@ -3,7 +3,7 @@ import express from "express";
 import cartItemsRouter from "./routes/cartItemsRouter";
 import productsRouter from "./routes/productsRouter";
 import usersRouter from "./routes/usersRouter";
-import cors from "cors";
+const cors = require("cors");
 const app = express();
 app.use(cors());
 app.use(express.json());
