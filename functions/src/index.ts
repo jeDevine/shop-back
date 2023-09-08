@@ -1,9 +1,9 @@
 import * as functions from "firebase-functions";
 import express from "express";
+import cors from "cors";
 import cartItemsRouter from "./routes/cartItemsRouter";
 import productsRouter from "./routes/productsRouter";
 import usersRouter from "./routes/usersRouter";
-import cors from "cors";
 const app = express();
 app.use(cors());
 app.use(express.json());
