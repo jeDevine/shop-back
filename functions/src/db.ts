@@ -9,4 +9,3 @@ export const getClient = async () => {
   await client.connect();
   return client;
 };
-// 1
